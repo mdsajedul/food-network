@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*section : top-bar*/
+
+#top-bar{
+    
+    background-color:#191919 ;
+}
+
+.top-bar-content{
+    display: flex;
+}
+
+.top-bar-title{
+    padding-left: 20px;
+    color: white;
+    width: 80%;
+}
+
+.top-bar-nav {
+    margin: 25px;
+}
+.top-bar-nav a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+/*Section */
+
+.order-food-content{
+   
+    display: flex;
+
+    
+}
+
+
+.order-food-text{
+    margin: 20px;
+    padding-top: 80px;
+    padding-left: 50px;
+    
+}
+
+.order-food-text h1{
+    font-size: 55px;
+    
+    color: #575757;
+}
+#orange-stop{
+    color:#FB934A ;
+}
+.order-food-text p{
+    color:#575757 ;
+    padding-bottom: 35px;
+} 
+
+
+.order-food-text a{
+    
+    padding: 20px 40px;
+    background: linear-gradient(90deg, rgba(251,149,75,1) 50%, rgba(254,75,47,1) 100%);
+    border-radius: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Section*/
+
+#about-me{
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-size: cover;
+    height: 530px;
+    
+   
+}
+.about-me-content{
+    display: flex;
+    padding: 60px;
+}
+
+.about-me-text{
+    margin: 25px;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.about-me-text h1{
+    font-size: 35px;
+    color: #575757;
+}
+
+.about-me-text p{
+   padding-right: 65px;
+   letter-spacing: 1px;
+   line-height: 1.6;
+   font:normal;
+   color: #575757;
+   padding-bottom: 40px;
+}
+
+.about-me-text a{
+    padding: 20px 40px;
+    background: linear-gradient(90deg, rgba(251,149,75,1) 50%, rgba(254,75,47,1) 100%);
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Section*/
+
+.my-products-text{
+    padding: 50px 330px 10px; 
+    text-align: center;
+    color:#575757 ;
+}
+.my-products-text h1{
+    font-size: 35px;
+    line-height: 1.6;
+
+}
+.my-products-text p{
+    line-height: 1.6;
+    font-weight: normal;
+}
+
+.my-products-cards{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+}
+.card{
+    margin: 20px;
+    padding: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    line-height: 1.6;
+    border-radius: 30px;
+    
+}
+.card img{
+    height: 200px;
+    width: 315px;
+    border-radius: 20px;
+}
+
+#footer{
+
+    height: 225px;
+    background-color: black;
+}
+.footer-content{
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+}
+.footer-content h1{
+    color:#FC8244 ;
+}
+
+#food-color{
+    color:green
+}
