@@ -7,7 +7,7 @@ body{
 
 #top-bar{
     
-    background-color:#191919 ;
+    background-color:#575757 ;
 }
 
 .top-bar-content{
@@ -20,6 +20,11 @@ body{
     width: 80%;
 }
 
+.top-bar-title a{
+    color: white;
+    text-decoration: none;
+}
+
 .top-bar-nav {
     margin: 25px;
 }
@@ -27,6 +32,10 @@ body{
     margin: 10px;
     text-decoration: none;
     color: white;
+}
+
+.top-bar-nav a:hover{
+    text-decoration: underline;
 }
 
 /*Section */
@@ -150,10 +159,71 @@ body{
     border-radius: 20px;
 }
 
+/*Section: Social Media */
+
+#social-media{
+    margin:100px;
+}
+
+.social-media-content{
+    padding:  60px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    color: #575757;
+    
+}
+
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+ 
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: linear-gradient(#7421BB,#D48B3D);
+    color: white;
+  }
+  
+
+/*Section Footer */
+
 #footer{
 
     height: 225px;
-    background-color: black;
+    background-color: #575757;
 }
 .footer-content{
     padding-top: 30px;
